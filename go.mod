@@ -1,4 +1,4 @@
-module github.com/mattermost/squirrel
+module github.com/simtropolis/squirrel
 
 go 1.14
 

@@ -6,12 +6,12 @@ Bug fixes will still be merged (slowly). Bug reports are welcome, but I will not
 # Squirrel - fluent SQL generator for Go
 
 ```go
-import "github.com/mattermost/squirrel"
+import "github.com/simtropolis/squirrel"
 ```
 
 
-[![GoDoc](https://godoc.org/github.com/mattermost/squirrel?status.png)](https://godoc.org/github.com/mattermost/squirrel)
-[![Build Status](https://api.travis-ci.org/mattermost/squirrel.svg?branch=master)](https://travis-ci.org/mattermost/squirrel)
+[![GoDoc](https://godoc.org/github.com/simtropolis/squirrel?status.png)](https://godoc.org/github.com/simtropolis/squirrel)
+[![Build Status](https://api.travis-ci.org/simtropolis/squirrel.svg?branch=master)](https://travis-ci.org/simtropolis/squirrel)
 
 **Squirrel is not an ORM.** For an application of Squirrel, check out
 [structable, a table-struct mapper](https://github.com/Masterminds/structable)
@@ -20,7 +20,7 @@ import "github.com/mattermost/squirrel"
 Squirrel helps you build SQL queries from composable parts:
 
 ```go
-import sq "github.com/mattermost/squirrel"
+import sq "github.com/simtropolis/squirrel"
 
 users := sq.Select("*").From("users").Join("emails USING (email_id)")
 

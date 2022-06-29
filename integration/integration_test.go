@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sqrl "github.com/mattermost/squirrel"
+	sqrl "github.com/simtropolis/squirrel"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
